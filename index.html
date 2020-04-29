@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+<header>Weather Dashboard</header>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <nav class="navbar navbar-light bg-light">
+                <form class="form-inline">
+                  <input class="userform">
+                  <button class="save" onclick="submitCity()">Save</button>
+                  <div class="buttonarea">
+                    
+                </div>
+                </form>
+              </nav>
+            <div class="card-body">
+              <h5 class="card-title">Past Searched Citys</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>    
+        </div>
+    <div class="col-sm">
+        <div class="jumbotron jumbotron">
+            <div class="container">
+              <h1 class="display-4" id="current-city-weather">Selected City</h1>
+              <ul>
+                  <li id="Temp">Temp</li>
+                  <li id="Humidity">Humidity</li>
+                  <li id="Wind Speed">Wind Speed</li>
+                  <li id="uvIndex">UV Index</li>
+              </ul>
+            </div>
+          </div>  
+        </div>
+    <div class="col-sm">
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="card-header">Forecast</div>
+            <div class="card-body">
+              <h5 class="card-title">Forecast 5 Days</h5>
+              <p class="card-text" id="forecast-sec">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+            </div>
+          </div>    
+        </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

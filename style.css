@@ -1,2 +1,75 @@
 
+.jumbotron{
+    background-color: #F9F0B5 !important;
+    border: 3px solid #0A97B7 !important;
+}
 
+#weathericon{
+    object-fit: contain;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+}
+
+.navbar-custom {
+    background-color: #F9F0B5 !important;
+    border: 3px solid rgb(240, 106, 53) !important;
+}
+
+.bg-custom {
+    background-color: #F9F0B5 !important;
+
+}
+
+.card-title{
+    background-color: #03749C !important;
+}
+
+.card-body-customtwo {
+    background-color: #F9F0B5 !important;
+    border: 3px solid rgb(240, 106, 53) !important;
+    text-align: center !important;
+}
+
+.card-header{
+    text-align: center !important;
+    font-size: 20px !important;
+    background-color: #03749C !important;
+    font-size: 20px;
+}
+
+#cityBtn {
+    display:block;
+    background-color: white !important;
+  color: black !important;
+  border: 3px solid #9CC5E7 !important;
+  transition-duration: 0.4s !important;
+  width: 230px;
+}
+
+  
+#cityBtn:hover {
+    background-color: #FEBC8E !important;
+    color: white;
+  }
+
+.userform {
+    border: 2px solid #9CC5E7 !important;
+}
+
+.save {
+    background-color: white !important;
+  color: black !important;
+  border: 2px solid #9CC5E7 !important;
+}
+
+.save {
+    transition-duration: 0.4s !important;
+  }
+  
+  .save:hover {
+    background-color: #FEBC8E !important;
+    color: white;
+  }

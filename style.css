@@ -1,4 +1,11 @@
 
+.bg{
+    background-image: url "https://unsplash.com/photos/6csuZQ9oZcI://images.unsplash.com/photo-1504392022767-a8fc0771f239?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" !important;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .jumbotron{
     background-color: #F9F0B5 !important;
     border: 3px solid #0A97B7 !important;
@@ -18,17 +25,21 @@ header{
     border: 3px solid rgb(240, 106, 53) !important;
 }
 
-.bg-custom {
+.bg {
     background-color: #F9F0B5 !important;
 
 }
 
 .card-title{
-    background-color: #03749C !important;
+    background-color: rgb(18, 121, 158) !important;
+    height: 50px !important;
+    font-size: 30px;
+    margin-top: 20px !important;
+    
 }
 
 .card-body-customtwo {
-    background-color: #F9F0B5 !important;
+    background-color: rgb(18, 121, 158) !important;
     border: 3px solid rgb(240, 106, 53) !important;
     text-align: center !important;
 }
@@ -36,7 +47,7 @@ header{
 .card-header{
     text-align: center !important;
     font-size: 20px !important;
-    background-color: #03749C !important;
+    background-color: #9CC5E7 !important;
     font-size: 20px;
 }
 
